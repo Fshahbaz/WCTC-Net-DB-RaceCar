@@ -32,6 +32,11 @@ namespace RaceTrack.RaceTrack.Drivers
             Car.Brake();
         }
 
+        internal static void Add(Mary mary)
+        {
+            throw new NotImplementedException();
+        }
+
         public abstract void Drive();
 
     }

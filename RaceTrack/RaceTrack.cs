@@ -24,8 +24,16 @@ namespace RaceTrack.RaceTrack
         public void PositionCars()
         {
             Drivers.Add(new FarmerJoe(new Tractor()));
-            Drivers.Add(new Antonio(new FordGt()));
-            Drivers.Add(new SoccerMom(new Minivan()));
+            Drivers.Add(new Antonio(new Minivan()));
+            Drivers.Add(new SoccerMom(new Ford()));
+            Driver.Add(new Mary(new Minivan()));
+            Drivers.Add(new fouzia(Minivan()));
+           
+        }
+
+        public RaceCar Minivan()
+        {
+            throw new NotImplementedException();
         }
 
         public void DriversReady()

@@ -10,13 +10,15 @@ namespace RaceTrack.RaceTrack.Cars
     {
         public Minivan()
         {
-            Name = "Minivan";
+            Name = "   Minivan";
             TopSpeed = 80;
         }
 
         public override void StartEngine()
         {
             Console.WriteLine($"The {Name} engine starts");
+            Console.ReadKey();
         }
+        
     }
 }
